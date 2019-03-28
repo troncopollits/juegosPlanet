@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package net.daw.bean.genericBeanImplementation;
 
 import com.google.gson.annotations.Expose;
@@ -14,17 +9,17 @@ import net.daw.bean.publicBeanInterface.BeanInterface;
  *
  * @author artur
  */
-public class GenericBeanImplementation implements BeanInterface{
-    
+public class GenericBeanImplementation implements BeanInterface {
+
     @Expose
     protected int id;
-    
+
     @Override
-    public int getId(){
+    public int getId() {
         return id;
     }
-    
-     @Override
+
+    @Override
     public void setId(int id) {
         this.id = id;
     }
