@@ -3,6 +3,7 @@ package net.daw.bean.genericBeanImplementation;
 import com.google.gson.annotations.Expose;
 import java.sql.Connection;
 import java.sql.ResultSet;
+import net.daw.bean.beanImplementation.UsuarioBean;
 import net.daw.bean.publicBeanInterface.BeanInterface;
 
 /**

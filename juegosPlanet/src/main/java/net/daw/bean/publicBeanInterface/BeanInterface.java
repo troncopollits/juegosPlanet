@@ -2,6 +2,7 @@ package net.daw.bean.publicBeanInterface;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
+import net.daw.bean.beanImplementation.UsuarioBean;
 
 /**
  *

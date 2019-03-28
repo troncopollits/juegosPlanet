@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import net.daw.bean.genericBeanImplementation.GenericBeanImplementation;
 import net.daw.bean.publicBeanInterface.BeanInterface;
+import net.daw.helper.EncodingHelper;
 
 /**
  *
@@ -177,5 +178,5 @@ public class UsuarioBean extends GenericBeanImplementation implements BeanInterf
         strPairs += " WHERE id=" + id;
         return strPairs;
 
-    }
+    }   
 }
