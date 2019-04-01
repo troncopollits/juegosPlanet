@@ -138,6 +138,21 @@ public class UsuarioBean extends GenericBeanImplementation implements BeanInterf
     }
 
     @Override
+    public String getPairs() {
+        String strPairs = "";
+        strPairs += "id=" + id + ",";
+        strPairs += "dni=" + EncodingHelper.quotate(dni) + ",";
+        strPairs += "nombre=" + EncodingHelper.quotate(nombre) + ",";
+        strPairs += "ape1=" + EncodingHelper.quotate(ape1) + ",";
+        strPairs += "ape2=" + EncodingHelper.quotate(ape2) + ",";
+        strPairs += "login=" + EncodingHelper.quotate(login) + ",";
+        strPairs += "id_tipoUsuario=" + id_tipoUsuario;
+        strPairs += " WHERE id=" + id;
+        return strPairs;
+
+    }
+
+    @Override
     public String getColumns() {
         String strColumns = "";
         strColumns += "id,";
@@ -164,19 +179,4 @@ public class UsuarioBean extends GenericBeanImplementation implements BeanInterf
         strColumns += id_tipoUsuario;
         return strColumns;
     }
-
-    @Override
-    public String getPairs() {
-        String strPairs = "";
-        strPairs += "id=" + id + ",";
-        strPairs += "dni=" + EncodingHelper.quotate(dni) + ",";
-        strPairs += "nombre=" + EncodingHelper.quotate(nombre) + ",";
-        strPairs += "ape1=" + EncodingHelper.quotate(ape1) + ",";
-        strPairs += "ape2=" + EncodingHelper.quotate(ape2) + ",";
-        strPairs += "login=" + EncodingHelper.quotate(login) + ",";
-        strPairs += "id_tipoUsuario=" + id_tipoUsuario;
-        strPairs += " WHERE id=" + id;
-        return strPairs;
-
-    }   
 }
