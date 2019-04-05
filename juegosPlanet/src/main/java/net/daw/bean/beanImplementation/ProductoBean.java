@@ -6,6 +6,8 @@ import java.sql.Date;
 import java.sql.ResultSet;
 import net.daw.bean.genericBeanImplementation.GenericBeanImplementation;
 import net.daw.bean.publicBeanInterface.BeanInterface;
+import net.daw.dao.publicDaoInterface.DaoInterface;
+import net.daw.factory.DaoFactory;
 import net.daw.helper.EncodingHelper;
 
 /**
@@ -149,7 +151,7 @@ public class ProductoBean extends GenericBeanImplementation implements BeanInter
         this.setFechaLanzamiento(oResultSet.getDate("fechaLanzamiento"));
         this.setPrecioRebaja(oResultSet.getDouble("precioRebaja"));
         this.setGenero(oResultSet.getString("genero"));
-        modelo
+        this.setId_modelo(oResultSet.getInt("id_modelo"));
         this.setId_tipoProducto(oResultSet.getInt("id_tipoproducto"));
         if (expand > 0) {
             DaoInterface otipoproductoDao = DaoFactory.getDao(oConnection, "tipoproducto", oUsuarioBeanSession);

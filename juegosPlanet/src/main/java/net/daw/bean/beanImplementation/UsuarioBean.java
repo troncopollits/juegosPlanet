@@ -5,6 +5,11 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import net.daw.bean.genericBeanImplementation.GenericBeanImplementation;
 import net.daw.bean.publicBeanInterface.BeanInterface;
+import net.daw.dao.publicDaoInterface.DaoInterface;
+import net.daw.dao.specificDaoImplementation_0.FacturaDao_0;
+import net.daw.dao.specificDaoImplementation_1.FacturaDao_1;
+import net.daw.dao.specificDaoImplementation_2.FacturaDao_2;
+import net.daw.factory.DaoFactory;
 import net.daw.helper.EncodingHelper;
 
 /**

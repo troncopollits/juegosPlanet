@@ -59,7 +59,7 @@ public class ComentarioBean extends GenericBeanImplementation implements BeanInt
         this.id_producto = id_producto;
     }
 
-    @Override
+   /* @Override
     public LineaBean fill(ResultSet oResultSet, Connection oConnection, Integer expand, UsuarioBean oUsuarioBeanSession) throws Exception {
 
         this.setId(oResultSet.getInt("id"));
@@ -82,7 +82,7 @@ public class ComentarioBean extends GenericBeanImplementation implements BeanInt
         }
 
         return this;
-    }
+    } */
     
     @Override
     public String getPairs() {

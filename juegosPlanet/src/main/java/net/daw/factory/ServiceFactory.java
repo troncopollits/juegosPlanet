@@ -3,6 +3,28 @@ package net.daw.factory;
 import javax.servlet.http.HttpServletRequest;
 import net.daw.bean.beanImplementation.ReplyBean;
 import net.daw.bean.beanImplementation.UsuarioBean;
+import net.daw.service.specificServiceImplementation_0.UsuarioService_0;
+import net.daw.service.specificServiceImplementation_1.ComentarioService_1;
+import net.daw.service.specificServiceImplementation_1.FabricanteService_1;
+import net.daw.service.specificServiceImplementation_1.FacturaService_1;
+import net.daw.service.specificServiceImplementation_1.LineaService_1;
+import net.daw.service.specificServiceImplementation_1.MarcaService_1;
+import net.daw.service.specificServiceImplementation_1.ModeloService_1;
+import net.daw.service.specificServiceImplementation_1.ProductoService_1;
+import net.daw.service.specificServiceImplementation_1.TipoproductoService_1;
+import net.daw.service.specificServiceImplementation_1.TipousuarioService_1;
+import net.daw.service.specificServiceImplementation_1.UsuarioService_1;
+import net.daw.service.specificServiceImplementation_2.CarritoService_2;
+import net.daw.service.specificServiceImplementation_2.ComentarioService_2;
+import net.daw.service.specificServiceImplementation_2.FabricanteService_2;
+import net.daw.service.specificServiceImplementation_2.FacturaService_2;
+import net.daw.service.specificServiceImplementation_2.LineaService_2;
+import net.daw.service.specificServiceImplementation_2.MarcaService_2;
+import net.daw.service.specificServiceImplementation_2.ModeloService_2;
+import net.daw.service.specificServiceImplementation_2.ProductoService_2;
+import net.daw.service.specificServiceImplementation_2.TipoproductoService_2;
+import net.daw.service.specificServiceImplementation_2.TipousuarioService_2;
+import net.daw.service.specificServiceImplementation_2.UsuarioService_2;
 
 /**
  *

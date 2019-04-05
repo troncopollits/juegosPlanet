@@ -8,6 +8,7 @@ import net.daw.bean.beanImplementation.FacturaBean;
 import net.daw.bean.beanImplementation.ReplyBean;
 import net.daw.connection.publicinterface.ConnectionInterface;
 import net.daw.constant.ConnectionConstants;
+import net.daw.dao.specificDaoImplementation_2.FacturaDao_2;
 import net.daw.factory.ConnectionFactory;
 import net.daw.factory.DaoFactory;
 import net.daw.service.genericServiceImplementation.GenericServiceImplementation;

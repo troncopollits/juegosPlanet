@@ -3,7 +3,6 @@ package net.daw.service.specificServiceImplementation_2;
 import com.google.gson.Gson;
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import javax.servlet.http.HttpServletRequest;
@@ -16,6 +15,9 @@ import net.daw.bean.beanImplementation.ReplyBean;
 import net.daw.bean.beanImplementation.UsuarioBean;
 import net.daw.connection.publicinterface.ConnectionInterface;
 import net.daw.constant.ConnectionConstants;
+import net.daw.dao.specificDaoImplementation_2.FacturaDao_2;
+import net.daw.dao.specificDaoImplementation_2.LineaDao_2;
+import net.daw.dao.specificDaoImplementation_2.ProductoDao_2;
 import net.daw.factory.ConnectionFactory;
 import net.daw.helper.EncodingHelper;
 
