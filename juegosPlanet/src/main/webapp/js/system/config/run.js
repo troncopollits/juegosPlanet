@@ -1,4 +1,4 @@
-wildcart.run(['$rootScope', 'sessionService', '$location', '$http',
+videogames.run(['$rootScope', 'sessionService', '$location', '$http',
     function ($rootScope, sessionService, $location, $http) {
         $rootScope.$on("$routeChangeStart", function (event, next, current) {
 

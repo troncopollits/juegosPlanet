@@ -1,6 +1,6 @@
 'use strict'
 
-var wildcart = angular.module('MyApp', [
+var videogames = angular.module('MyApp', [
     'ngRoute',
     'services',
     'components',

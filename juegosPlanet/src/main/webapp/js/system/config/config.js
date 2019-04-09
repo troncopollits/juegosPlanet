@@ -1,8 +1,8 @@
 'use strict'
 
-wildcart.config(['$locationProvider', function ($locationProvider) {
+videogames.config(['$locationProvider', function ($locationProvider) {
         $locationProvider.html5Mode(true);
     }]);
-wildcart.config(['$httpProvider', function ($httpProvider) {
+videogames.config(['$httpProvider', function ($httpProvider) {
         $httpProvider.defaults.withCredentials = true;
     }]);

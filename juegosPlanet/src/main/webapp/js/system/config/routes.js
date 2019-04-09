@@ -48,9 +48,9 @@ var autenticacionUsuario = function ($q, $location, $http, sessionService) {
 }
 
 
-wildcart.config(['$routeProvider', function ($routeProvider) {
+videogames.config(['$routeProvider', function ($routeProvider) {
 
-        //HOOME
+        //HOME
         $routeProvider.when('/', {templateUrl: 'js/app/common/home.html', controller: 'homeController'});
 
         //USUARIO
@@ -59,9 +59,7 @@ wildcart.config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/usuario/new', {templateUrl: 'js/app/usuario/new.html', controller: 'usuarioNewController', resolve: {auth: autenticacionAdministrador}});
         $routeProvider.when('/usuario/edit/:id', {templateUrl: 'js/app/usuario/edit.html', controller: 'usuarioEditController', resolve: {auth: autenticacionAdministrador}});
         $routeProvider.when('/usuario/remove/:id', {templateUrl: 'js/app/usuario/remove.html', controller: 'usuarioRemoveController', resolve: {auth: autenticacionAdministrador}});
-
         $routeProvider.when('/usuario/editpass/:id', {templateUrl: 'js/app/usuario/editpass.html', controller: 'usuarioEditpassController'});
-
         $routeProvider.when('/usuario/login', {templateUrl: 'js/app/usuario/login.html', controller: 'usuarioLoginController'});
         $routeProvider.when('/usuario/logout', {templateUrl: 'js/app/usuario/logout.html', controller: 'usuarioLogoutController'});
 
